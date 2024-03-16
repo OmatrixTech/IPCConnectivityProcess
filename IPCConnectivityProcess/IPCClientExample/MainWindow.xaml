@@ -1,0 +1,15 @@
+﻿<Window x:Class="IPCClientExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IPCClientExample"
+        mc:Ignorable="d"
+        Title="FIRST SENDER EXE" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Button x:Name="BtnClient" Content="FIRST IPC INFORMATION SENDER TO EXE" Height="41" Margin="10,50,10,0" Click="BtnClient_Click"/>
+            <TextBox x:Name="TxtBoxResult" Height="100" FontSize="20" FontWeight="Bold" Margin="10,50,10,0" IsReadOnly="False" Foreground="Blue"/>
+        </StackPanel>
+    </Grid>
+</Window>

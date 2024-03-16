@@ -1,0 +1,15 @@
+﻿<Window x:Class="IPCServerExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IPCServerExample"
+        mc:Ignorable="d"
+        Title="RECEIVER EXE" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <!--<Button x:Name="BtnIPCServer" Content="IPC RECEIVER EXE" Height="41" Margin="10,50,10,0" Click="BtnIPCServer_Click"/>-->
+            <TextBox BorderBrush="DarkGray" FontSize="20" FontWeight="Bold" BorderThickness="2" x:Name="TxtBlckResult" MinHeight="300" Margin="10,50,10,0" IsReadOnly="True" Foreground="Green" AcceptsReturn="True" Height="309"/>
+        </StackPanel>
+    </Grid>
+</Window>
